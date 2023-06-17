@@ -1,0 +1,15 @@
+/home/friday/SnakesAndLadders/obj/Debug/net7.0/SnakesAndLadders.csproj.AssemblyReference.cache
+/home/friday/SnakesAndLadders/obj/Debug/net7.0/SnakesAndLadders.GeneratedMSBuildEditorConfig.editorconfig
+/home/friday/SnakesAndLadders/obj/Debug/net7.0/SnakesAndLadders.AssemblyInfoInputs.cache
+/home/friday/SnakesAndLadders/obj/Debug/net7.0/SnakesAndLadders.AssemblyInfo.cs
+/home/friday/SnakesAndLadders/obj/Debug/net7.0/SnakesAndLadders.csproj.CoreCompileInputs.cache
+/home/friday/SnakesAndLadders/bin/Debug/net7.0/SnakesAndLadders
+/home/friday/SnakesAndLadders/bin/Debug/net7.0/SnakesAndLadders.deps.json
+/home/friday/SnakesAndLadders/bin/Debug/net7.0/SnakesAndLadders.runtimeconfig.json
+/home/friday/SnakesAndLadders/bin/Debug/net7.0/SnakesAndLadders.dll
+/home/friday/SnakesAndLadders/bin/Debug/net7.0/SnakesAndLadders.pdb
+/home/friday/SnakesAndLadders/obj/Debug/net7.0/SnakesAndLadders.dll
+/home/friday/SnakesAndLadders/obj/Debug/net7.0/refint/SnakesAndLadders.dll
+/home/friday/SnakesAndLadders/obj/Debug/net7.0/SnakesAndLadders.pdb
+/home/friday/SnakesAndLadders/obj/Debug/net7.0/SnakesAndLadders.genruntimeconfig.cache
+/home/friday/SnakesAndLadders/obj/Debug/net7.0/ref/SnakesAndLadders.dll
