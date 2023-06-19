@@ -13,18 +13,29 @@ public class GameRunner
     public event Action<string> NotifMessage;
     public GameRunner()
     {
-        _gameControl = new GameControl(new DiceLib.Dice(6), new BoardLib.Board(100));
+        _gameControl = new GameControl(new DiceLib.Dice(6), new BoardLib.Board(60));
         _display = new Display();
         _gameControl.NotifMessage += _display.DisplayNotifMessage;
     }
-    
 
     public void SetupGame()
     {
+        Dictionary<int, int> snakes = new Dictionary<int, int>()
+        {
+            {16, 6},
+            {47, 26},
+            {49, 11},
+        };
+        Dictionary<int, int> ladders = new Dictionary<int, int>()
+        {
+            {3, 22},
+            {5, 25},
+            {11, 42}
+        };
+        _gameControl.IntitalizeSnakesAndLadders(snakes, ladders);
         _display.RefreshDisplay();
         _display.DisplayMessage("Enter the Number of Players: ");
         _gameControl.SetupPlayer();
-        Console.ReadLine();
     }
     public async Task StartGame()
     {
@@ -36,9 +47,9 @@ public class GameRunner
         {
             foreach (Player player in _gameControl.GetPlayers())
             {
-                _gameControl.DrawBoard();
                 _display.DisplayPlayerInfo(_gameControl.GetPlayerName(player), _gameControl.GetPlayerPosition(player));
                 Console.ReadLine();
+                _gameControl.DrawBoard();
                 bool rollAgain = true;
                 int totalRolls = 0;
 
@@ -49,7 +60,7 @@ public class GameRunner
                     totalRolls++;
                     if (_gameControl.shouldRollAgain(player))
                     {
-                        _display.DisplayMessage($"Player {player.GetName()} rolled a dice and got a{_gameControl.GetNumberOfSides()}! Roll the dice again.");
+                        _display.DisplayMessage($"Player {player.GetName()} rolled a dice and got a {_gameControl.GetNumberOfSides()}! Roll the dice again.");
                     }
                     else
                     {

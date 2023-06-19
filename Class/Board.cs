@@ -21,14 +21,22 @@ public class Board : IBoard
     {
         _size = size;
     }
-    public void AddSnake(int head, int tail)
+    public void SetSnake(Dictionary<int, int> snake)
     {
-        _snake[head] = tail; 
+        _snake = snake;
     }
-    public void AddLadder(int bottom, int top)
+    public void SetLadder(Dictionary<int, int> ladder)
     {
-        _ladder[bottom] = top;
+        _ladder = ladder;
     }
+    // public void AddSnake(int head, int tail)
+    // {
+    //     _snake[head] = tail; 
+    // }
+    // public void AddLadder(int bottom, int top)
+    // {
+    //     _ladder[bottom] = top;
+    // }
     public Dictionary<int, int> GetSnake()
     {
         return _snake;

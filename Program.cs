@@ -13,6 +13,7 @@ static class Program
     {
         GameRunner gameRunner = new();
         gameRunner.SetupGame();
+        Console.Clear();
         await gameRunner.StartGame();
         Console.ReadLine();
     }
