@@ -13,7 +13,7 @@ public class GameRunner
     public event Action<string> NotifMessage;
     public GameRunner()
     {
-        _gameControl = new GameControl(new DiceLib.Dice(6), new BoardLib.Board(60));
+        _gameControl = new GameControl(new DiceLib.Dice(6), new BoardLib.Board(50));
         _display = new Display();
         _gameControl.NotifMessage += _display.DisplayNotifMessage;
     }
@@ -30,16 +30,18 @@ public class GameRunner
         {
             {3, 22},
             {5, 25},
-            {11, 42}
+            {12, 42}
         };
         _gameControl.IntitalizeSnakesAndLadders(snakes, ladders);
         _display.RefreshDisplay();
+        _display.DisplayMessage("=================[ Welcome to Snakes and Ladders ]=================");
+        _display.DisplayMessage("Setup Game: ");
         _display.DisplayMessage("Enter the Number of Players: ");
         _gameControl.SetupPlayer();
     }
     public async Task StartGame()
     {
-        _display.DisplayMessage("Start Game");
+        _display.DisplayMessage("=================[ Start Game ]=================");;
         Task loadingTask = _gameControl.Loading();
         _display.DisplayMessage("Game Starting.....");
         await loadingTask;

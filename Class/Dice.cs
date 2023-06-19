@@ -20,6 +20,7 @@ public class Dice : IDice
     }
     public int GetRoll()
     {
+        // Random random = new Random();
         return _random.Next(1, _numberOfSides + 1);
     }
 }
