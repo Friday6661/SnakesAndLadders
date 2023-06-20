@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/friday/SnakesAndLadders/SnakesAndLadders.csproj": {}
+    "d:\\SnakesAndLadders\\SnakesAndLadders.csproj": {}
   },
   "projects": {
-    "/home/friday/SnakesAndLadders/SnakesAndLadders.csproj": {
+    "d:\\SnakesAndLadders\\SnakesAndLadders.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/friday/SnakesAndLadders/SnakesAndLadders.csproj",
+        "projectUniqueName": "d:\\SnakesAndLadders\\SnakesAndLadders.csproj",
         "projectName": "SnakesAndLadders",
-        "projectPath": "/home/friday/SnakesAndLadders/SnakesAndLadders.csproj",
-        "packagesPath": "/home/friday/.nuget/packages/",
-        "outputPath": "/home/friday/SnakesAndLadders/obj/",
+        "projectPath": "d:\\SnakesAndLadders\\SnakesAndLadders.csproj",
+        "packagesPath": "C:\\Users\\Formulatrix\\.nuget\\packages\\",
+        "outputPath": "d:\\SnakesAndLadders\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/friday/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Formulatrix\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.105/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -12,7 +12,7 @@ using System.Collections.Generic;
 namespace GameControlLib;
 class GameControl
 {
-    private List<Player> _players;
+    private List<Player> _players; // Better dihapus
     private Dice _dice;
     private Board _board;
     private Dictionary<Player, int> _playerPosition;
@@ -82,7 +82,7 @@ class GameControl
         int playerCount;
         while(true)
         {
-            string input = Console.ReadLine();
+            string input = Console.ReadLine(); //pharsing dari addplayer
             if (int.TryParse(input, out playerCount))
             {
                 if (playerCount >= 2 && playerCount <= 4)

@@ -3,12 +3,12 @@ namespace DiceLib;
 public class Dice : IDice
 {
     private int _numberOfSides;
-    private Random _random;
+    //private Random _random;
 
     public Dice(int numberOfSides)
     {
         _numberOfSides = numberOfSides;
-        _random = new Random();
+    //    _random = new Random();
     }
     public int GetNumberOfSides()
     {
@@ -20,6 +20,7 @@ public class Dice : IDice
     }
     public int GetRoll()
     {
-        return _random.Next(1, _numberOfSides + 1);
+        Random random = new Random();
+        return random.Next(1, _numberOfSides + 1);
     }
 }
