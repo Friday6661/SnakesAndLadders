@@ -38,4 +38,5 @@ public class Display
     {
         Console.WriteLine(message);
     }
+    
 }

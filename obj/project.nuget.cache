@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tqxYpVpb+vwDRnogX5H+POjz3T2AGS9HRHiOB+JmX7Rg+HNHw4Vkow77JkxM+My5o+T+Re2VQ7K9WVp1OnRpRw==",
+  "dgSpecHash": "DDMgPjybDteFc0xQrAiKuqbbfvjsNcENBFA10rSMRO08haw7zfQxrUbClbSHx34F1m1skpOd88VHAevvOA0/iw==",
   "success": true,
   "projectFilePath": "/home/friday/SnakesAndLadders/SnakesAndLadders.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/friday/.nuget/packages/shortid/4.0.0/shortid.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

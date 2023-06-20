@@ -1,23 +1,24 @@
 using IPlayerLib;
+using shortid;
 namespace PlayerLib;
 
 public class Player : IPlayer
 {
-    private int _id;
+    private string _id;
     private string _name;
-    private static int _nextId = 1;
+    //private static int _nextId = 1;
 
     public Player(string name)
     {
-        _id = _nextId;
+        _id = ShortId.Generate();
         _name = name;
     }
 
-    public int GetId()
+    public string GetId()
     {
         return _id;
     }
-    public void SetId(int id)
+    public void SetId(string id)
     {
         _id = id;
     }
