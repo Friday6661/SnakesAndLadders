@@ -33,19 +33,19 @@
     ]
   },
   "packageFolders": {
-    "/home/friday/.nuget/packages/": {}
+    "C:\\Users\\Formulatrix\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/friday/SnakesAndLadders/SnakesAndLadders.csproj",
+      "projectUniqueName": "D:\\SnakesAndLadders\\SnakesAndLadders.csproj",
       "projectName": "SnakesAndLadders",
-      "projectPath": "/home/friday/SnakesAndLadders/SnakesAndLadders.csproj",
-      "packagesPath": "/home/friday/.nuget/packages/",
-      "outputPath": "/home/friday/SnakesAndLadders/obj/",
+      "projectPath": "D:\\SnakesAndLadders\\SnakesAndLadders.csproj",
+      "packagesPath": "C:\\Users\\Formulatrix\\.nuget\\packages\\",
+      "outputPath": "D:\\SnakesAndLadders\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/friday/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Formulatrix\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -90,16 +90,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.105/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /home/friday/SnakesAndLadders/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

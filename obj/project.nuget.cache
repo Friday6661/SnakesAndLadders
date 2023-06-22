@@ -1,17 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DDMgPjybDteFc0xQrAiKuqbbfvjsNcENBFA10rSMRO08haw7zfQxrUbClbSHx34F1m1skpOd88VHAevvOA0/iw==",
+  "dgSpecHash": "6WP0YK2pGEGHPBA0sm18x2ZrKka15Q/qUak6QgyYPsEYfDNtz1ttOvw2twnyjc76IUUC8e/v2umdllWH+OZhBA==",
   "success": true,
-  "projectFilePath": "/home/friday/SnakesAndLadders/SnakesAndLadders.csproj",
+  "projectFilePath": "D:\\SnakesAndLadders\\SnakesAndLadders.csproj",
   "expectedPackageFiles": [
-    "/home/friday/.nuget/packages/shortid/4.0.0/shortid.4.0.0.nupkg.sha512"
+    "C:\\Users\\Formulatrix\\.nuget\\packages\\shortid\\4.0.0\\shortid.4.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /home/friday/SnakesAndLadders/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
