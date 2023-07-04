@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SnakesAndLadders\\SnakesAndLadders.csproj": {}
+    "D:\\SnakesAndLadders\\SnakesAndLadderstest\\SnakesAndLadderstest.csproj": {}
   },
   "projects": {
-    "D:\\SnakesAndLadders\\SnakesAndLadders.csproj": {
+    "D:\\SnakesAndLadders\\SnakesAndLadderstest\\SnakesAndLadderstest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SnakesAndLadders\\SnakesAndLadders.csproj",
-        "projectName": "SnakesAndLadders",
-        "projectPath": "D:\\SnakesAndLadders\\SnakesAndLadders.csproj",
+        "projectUniqueName": "D:\\SnakesAndLadders\\SnakesAndLadderstest\\SnakesAndLadderstest.csproj",
+        "projectName": "SnakesAndLadderstest",
+        "projectPath": "D:\\SnakesAndLadders\\SnakesAndLadderstest\\SnakesAndLadderstest.csproj",
         "packagesPath": "C:\\Users\\Formulatrix\\.nuget\\packages\\",
-        "outputPath": "D:\\SnakesAndLadders\\obj\\",
+        "outputPath": "D:\\SnakesAndLadders\\SnakesAndLadderstest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Formulatrix\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,39 +38,25 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Mvc": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[17.5.0, )"
             },
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.1.1, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[7.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
-              "target": "Package",
-              "version": "[7.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.8, )"
+              "version": "[3.2.0, )"
             },
-            "Newtonsoft.Json": {
+            "xunit": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[2.4.2, )"
             },
-            "Shortid": {
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[4.0.0, )"
+              "version": "[2.4.5, )"
             }
           },
           "imports": [

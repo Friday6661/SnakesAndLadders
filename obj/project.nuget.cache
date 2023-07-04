@@ -1,9 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "mcyMT498RDtJkxkx9xwWIbV7snfvYeBumzRZC7kdtbCjVLd8z7t4y8lg6n/15mzKHfPA/mXtLmn4RfwyRlhyFg==",
+=======
+  "dgSpecHash": "6WP0YK2pGEGHPBA0sm18x2ZrKka15Q/qUak6QgyYPsEYfDNtz1ttOvw2twnyjc76IUUC8e/v2umdllWH+OZhBA==",
+>>>>>>> e99464533d3dffd7fb712a889f1781b59f8d13d2
   "success": true,
-  "projectFilePath": "/home/friday/SnakesAndLadders/SnakesAndLadders.csproj",
+  "projectFilePath": "D:\\SnakesAndLadders\\SnakesAndLadders.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
     "/home/friday/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/friday/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/home/friday/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -208,6 +213,9 @@
     "/home/friday/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/home/friday/.nuget/packages/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
     "/home/friday/.nuget/packages/system.xml.xpath.xdocument/4.3.0/system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+=======
+    "C:\\Users\\Formulatrix\\.nuget\\packages\\shortid\\4.0.0\\shortid.4.0.0.nupkg.sha512"
+>>>>>>> e99464533d3dffd7fb712a889f1781b59f8d13d2
   ],
   "logs": []
 }

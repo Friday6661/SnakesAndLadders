@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakesAndLadders", "SnakesAndLadders.csproj", "{D6C01635-A3FF-44F1-9180-7BB7A3ACC5D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakesAndLadderstest", "SnakesAndLadderstest\SnakesAndLadderstest.csproj", "{5B34D6F8-BDA1-4BB4-999F-694D776F3CC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D6C01635-A3FF-44F1-9180-7BB7A3ACC5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6C01635-A3FF-44F1-9180-7BB7A3ACC5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6C01635-A3FF-44F1-9180-7BB7A3ACC5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B34D6F8-BDA1-4BB4-999F-694D776F3CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B34D6F8-BDA1-4BB4-999F-694D776F3CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B34D6F8-BDA1-4BB4-999F-694D776F3CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B34D6F8-BDA1-4BB4-999F-694D776F3CC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

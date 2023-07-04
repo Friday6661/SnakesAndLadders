@@ -30,6 +30,7 @@ D:/SnakesAndLadders/obj/Debug/net7.0/SnakesAndLadders.genruntimeconfig.cache
 D:/SnakesAndLadders/obj/Debug/net7.0/ref/SnakesAndLadders.dll
 /home/friday/SnakesAndLadders/bin/Debug/net7.0/shortid.dll
 /home/friday/SnakesAndLadders/obj/Debug/net7.0/SnakesAndLadders.csproj.CopyComplete
+<<<<<<< HEAD
 /home/friday/SnakesAndLadders/bin/Debug/net7.0/Microsoft.AspNetCore.Antiforgery.dll
 /home/friday/SnakesAndLadders/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.Abstractions.dll
 /home/friday/SnakesAndLadders/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.Core.dll
@@ -165,3 +166,22 @@ D:/SnakesAndLadders/obj/Debug/net7.0/ref/SnakesAndLadders.dll
 /home/friday/SnakesAndLadders/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
 /home/friday/SnakesAndLadders/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /home/friday/SnakesAndLadders/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+=======
+D:\SnakesAndLadders\bin\Debug\net7.0\SnakesAndLadders.exe
+D:\SnakesAndLadders\bin\Debug\net7.0\SnakesAndLadders.deps.json
+D:\SnakesAndLadders\bin\Debug\net7.0\SnakesAndLadders.runtimeconfig.json
+D:\SnakesAndLadders\bin\Debug\net7.0\SnakesAndLadders.dll
+D:\SnakesAndLadders\bin\Debug\net7.0\SnakesAndLadders.pdb
+D:\SnakesAndLadders\bin\Debug\net7.0\shortid.dll
+D:\SnakesAndLadders\obj\Debug\net7.0\SnakesAndLadders.csproj.AssemblyReference.cache
+D:\SnakesAndLadders\obj\Debug\net7.0\SnakesAndLadders.GeneratedMSBuildEditorConfig.editorconfig
+D:\SnakesAndLadders\obj\Debug\net7.0\SnakesAndLadders.AssemblyInfoInputs.cache
+D:\SnakesAndLadders\obj\Debug\net7.0\SnakesAndLadders.AssemblyInfo.cs
+D:\SnakesAndLadders\obj\Debug\net7.0\SnakesAndLadders.csproj.CoreCompileInputs.cache
+D:\SnakesAndLadders\obj\Debug\net7.0\SnakesAndLadders.csproj.CopyComplete
+D:\SnakesAndLadders\obj\Debug\net7.0\SnakesAndLadders.dll
+D:\SnakesAndLadders\obj\Debug\net7.0\refint\SnakesAndLadders.dll
+D:\SnakesAndLadders\obj\Debug\net7.0\SnakesAndLadders.pdb
+D:\SnakesAndLadders\obj\Debug\net7.0\SnakesAndLadders.genruntimeconfig.cache
+D:\SnakesAndLadders\obj\Debug\net7.0\ref\SnakesAndLadders.dll
+>>>>>>> e99464533d3dffd7fb712a889f1781b59f8d13d2
