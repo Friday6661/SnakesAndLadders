@@ -17,12 +17,17 @@ public class BoardView
     public void ShowBoard(int boardId)
     {
         Board board = _boardController.GetBoardById(boardId);
+        List<Snake> snakes = _boardController.GetSnakesByBoardId(boardId);
         if (board != null)
         {
             Console.WriteLine($"Board ID: {board.BoardId}");
             Console.WriteLine($"Board Size: {board.Size}");
             Console.WriteLine("Snakes:");
-            ShowSnakes(board.Snakes);
+            // ShowSnakes(board.Snakes);
+            foreach (Snake snake in snakes)
+            {
+                Console.WriteLine($"Snake ID: {snake.SnakeId}, Head Position: {snake.HeadPosition}, Tail Position: {snake.TailPosition}");
+            }
             Console.WriteLine("Ladders:");
             ShowLadders(board.Ladders);
         }
@@ -43,6 +48,13 @@ public class BoardView
 
     public void AddSnake()
     {
+        Console.Clear();
+        var boards = _boardController.GetAllBoards();
+        Console.WriteLine("List Of Board:");
+        foreach (var board in boards)
+        {
+            Console.WriteLine($"Board ID: {board.BoardId}, Board Size: {board.Size}");
+        }
         Console.Write("Enter board ID to add snake: ");
         int boardId = int.Parse(Console.ReadLine());
 
@@ -52,8 +64,8 @@ public class BoardView
         Console.Write("Enter snake tail position: ");
         int tailPosition = int.Parse(Console.ReadLine());
 
-        _boardController.AddSnake(boardId, headPosition, tailPosition);
-        Console.WriteLine("Snake added successfully.");
+        string result = _boardController.AddSnake(boardId, headPosition, tailPosition);
+        Console.WriteLine(result);
     }
 
     public void AddLadder()
@@ -67,8 +79,8 @@ public class BoardView
         Console.Write("Enter ladder top position: ");
         int topPosition = int.Parse(Console.ReadLine());
 
-        _boardController.AddLadder(boardId, bottomPosition, topPosition);
-        Console.WriteLine("Ladder added successfully.");
+        string result = _boardController.AddLadder(boardId, bottomPosition, topPosition);
+        Console.WriteLine(result);
     }
 
     private void ShowSnakes(ICollection<Snake> snakes)

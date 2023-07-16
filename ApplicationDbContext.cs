@@ -10,6 +10,7 @@ public class ApplicationDbContext : DbContext
     public DbSet<Snake> Snakes { get; private set; }
     public DbSet<Ladder> Ladders { get; private set; }
     public DbSet<Dice> Dices { get; private set; }
+    public DbSet<GamePlay> GamePlays { get; private set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

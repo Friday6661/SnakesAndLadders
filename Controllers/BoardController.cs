@@ -24,7 +24,7 @@ public class BoardController
         _context.Boards.Add(board);
         _context.SaveChanges();
     }
-    public void AddSnake(int boardId, int headPosition, int tailPosition)
+    public string AddSnake(int boardId, int headPosition, int tailPosition)
     {
         var board = GetBoardById(boardId);
         if (board != null && headPosition < board.Size && tailPosition > 0 && headPosition != tailPosition)
@@ -34,12 +34,18 @@ public class BoardController
                 board.Snakes = new List<Snake>();
             }
 
-            board.Snakes.Add(new Snake { HeadPosition = headPosition, TailPosition = tailPosition });
-            _context.SaveChanges();
+            bool isDuplicate = board.Snakes.Any(s => s.HeadPosition == headPosition || s.TailPosition == tailPosition);
+            if (!isDuplicate)
+            {
+                board.Snakes.Add(new Snake { HeadPosition = headPosition, TailPosition = tailPosition });
+                _context.SaveChanges();
+            }
+            return "Snake with the same position already exists";
         }
+        return "Failed to add snake to the list";
     }
 
-    public void AddLadder(int boardId, int bottomPosition, int topPosition)
+    public string AddLadder(int boardId, int bottomPosition, int topPosition)
     {
         var board = GetBoardById(boardId);
         if (board != null && bottomPosition < topPosition && bottomPosition > 0 && bottomPosition != topPosition)
@@ -48,9 +54,16 @@ public class BoardController
             {
                 board.Ladders = new List<Ladder>();
             }
-            board.Ladders.Add(new Ladder{BottomPosition = bottomPosition, TopPosition = topPosition});
-            _context.SaveChanges();
+
+            bool isDuplicate = board.Ladders.Any(l => l.BottomPosition == bottomPosition || l.TopPosition == topPosition);
+            if (isDuplicate)
+            {
+                board.Ladders.Add(new Ladder{BottomPosition = bottomPosition, TopPosition = topPosition});
+                _context.SaveChanges();
+            }
+            return "Ladder with the smae position already exists";
         }
+        return "Failed to add ladder to the list";
     }
     public Board GetBoardById(int boardId)
     {
@@ -61,6 +74,10 @@ public class BoardController
     {
         return _context.Boards.FirstOrDefault(board => board.Size == boardSize);
     }
+    public List<Board> GetAllBoards()
+    {
+        return _context.Boards.ToList();
+    }
 
     public void UpdateBoard(int boardId, int size)
     {
@@ -69,5 +86,9 @@ public class BoardController
         {
             board.Size = size;
         }
+    }
+    public List<Snake> GetSnakesByBoardId(int boardId)
+    {
+        return _context.Snakes.Where(s => s.BoardId == boardId).ToList();
     }
 }
